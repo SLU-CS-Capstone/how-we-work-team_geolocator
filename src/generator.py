@@ -1,7 +1,9 @@
 from maze import Maze
+import sys
 
-if len(sys.argv>1):
-  size = sys.argv[1]
+if len(sys.argv)>1:
+  size = int(sys.argv[1])
+  
 else:
   size=20
 
