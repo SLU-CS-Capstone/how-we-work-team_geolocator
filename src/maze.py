@@ -1,7 +1,7 @@
 from graph import Graph
 
 class Maze:
-    def __init__(self, size):
+    def __init__(self, size=20):
         self.size = size
         self.nodes = []
         self.graph = Graph(size*size)
