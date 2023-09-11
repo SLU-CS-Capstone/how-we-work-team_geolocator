@@ -1,6 +1,9 @@
 from maze import Maze
 
-size = sys.argv[1]
+if len(sys.argv>1):
+  size = sys.argv[1]
+else:
+  size=20
 
 maze = Maze(size)
 maze.generate_maze()
